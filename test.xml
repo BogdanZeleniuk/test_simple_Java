@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All" verbose="4" parallel="tests" thread-count="10">
+
+    <test name="1">
+        <classes>
+            <class name="signIn.SignInWithInvalidCredentialsFromStartPage"></class>
+        </classes>
+    </test>
+    <test name="2">
+        <classes>
+            <class name="signIn.SignInWithInvalidCredentialsFroSignUpPage"></class>
+        </classes>
+    </test>
+    <test name="3">
+        <classes>
+            <class name="signIn.ForgotPasswordLinkVerification"></class>
+        </classes>
+    </test>
+
+</suite>
